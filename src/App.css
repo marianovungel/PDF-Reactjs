@@ -1,6 +1,43 @@
 .App {
   text-align: center;
 }
+.imgCard{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1.5px solid #fff;
+  object-fit:fill;
+}
+.divDesc{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.card{
+  width: 320px;
+  border-radius: 15px;
+  border: 1px solid blue;
+  position: relative;
+  margin: 70px auto 0px auto;
+  background: linear-gradient(blue, red);
+  padding: 40px 10px 20px 10px;
+}
+.center{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.data{
+  width: 100%;
+}
+.Document{
+  background-color: blue;
+}
 
 .App-logo {
   height: 40vmin;
